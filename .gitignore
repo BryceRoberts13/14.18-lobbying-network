@@ -24,3 +24,7 @@ dist/
 
 # macOS
 .DS_Store
+
+# Cache dirs
+.pytest_cache/
+.ruff_cache/

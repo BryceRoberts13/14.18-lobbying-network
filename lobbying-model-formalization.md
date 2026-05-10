@@ -145,22 +145,22 @@ If $S_0 \geq \bar{T}$, the bill passes with $t = 0$. If $S_0 < \bar{T}$, need $\
 
 Assume $S_0 < \bar{T}$ so $\Delta > 0$.
 
-**Result:** Concentrate the entire budget on a single member $i^*$ with **maximal** $v_i$:
+**Result:** Concentrate the entire budget on a single member $i^{\ast}$ with **maximal** $v_i$:
 
 $$
-i^* \in \arg\max_{i} v_i.
+i^{\ast} \in \arg\max_{i} v_i.
 $$
 
 Optimal targeting:
 
 $$
-t_{i^*} = \frac{\Delta}{v_{i^*}}, \qquad t_j = 0 \ \text{for all } j \neq i^*.
+t_{i^{\ast}} = \frac{\Delta}{v_{i^{\ast}}}, \qquad t_j = 0 \ \text{for all } j \neq i^{\ast}.
 $$
 
 **Minimum cost** to achieve passage:
 
 $$
-\sum_i t_i = \frac{\Delta}{v_{i^*}} = \frac{\bar{T} - S_0}{\max_i v_i}.
+\sum_i t_i = \frac{\Delta}{v_{i^{\ast}}} = \frac{\bar{T} - S_0}{\max_i v_i}.
 $$
 
 *Idea:* Objective $\mathbf{1}^\top t$ is linear; constraint $v^\top t \geq \Delta$ is linear; optimum puts all weight on the coordinate with best ratio of constraint contribution to cost—here, $\arg\max_i v_i$.
@@ -192,4 +192,4 @@ $M = (I - 0.4\, G)^{-1}$ gives approximate centralities $v \approx (0.259,\ 0.64
 
 ## Source notes
 
-Derived from course notes (Apr 14, 2026) and an exported chat formalization; notation unified and optimal $t_i$ formula corrected to $t_{i^*} = \Delta / v_{i^*}$ (concentrated targeting on $\arg\max v_i$).
+Derived from course notes (Apr 14, 2026) and an exported chat formalization; notation unified and optimal $t_i$ formula corrected to $t_{i^{\ast}} = \Delta / v_{i^{\ast}}$ (concentrated targeting on $\arg\max v_i$).
