@@ -22,6 +22,9 @@ dist/
 *.pem
 .env*
 
+# Chat exports / notes
+research/*_notes.txt
+
 # macOS
 .DS_Store
 
